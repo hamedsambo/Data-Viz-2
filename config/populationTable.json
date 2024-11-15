@@ -1,0 +1,72 @@
+{
+  "graphType": "dataTable",
+  "dataSettings": {
+    "dataURL": "https://raw.githubusercontent.com/UNDP-Data/dv-bangladesh/refs/heads/main/public/data/data.csv",
+    "fileType": "csv"
+  },
+  "graphSettings": {
+    "columnData": [
+      {
+        "columnTitle": "Upazila",
+        "columnId": "shapeName"
+      },
+      {
+        "columnId": "flooded_pop_2024",
+        "columnTitle": "Affected Population (count)"
+      },
+      {
+        "columnId": "flooded_pop_2024_perc",
+        "columnTitle": "Affected population (%)"
+      },
+      {
+        "columnId": "flooded_female_pop_2024",
+        "columnTitle": "Affected female population (count)"
+      },
+      {
+        "columnId": "flooded_female_pop_2024_perc",
+        "columnTitle": "Affected female population (%)"
+      },
+      {
+        "columnId": "flooded_male_pop_2024",
+        "columnTitle": "Affected male population (count)"
+      },
+      {
+        "columnId": "flooded_male_pop_2024_perc",
+        "columnTitle": "Affected male population (%)"
+      },
+      {
+        "columnId": "flooded_rate_below_5_2024",
+        "columnTitle": "Affected children below 5 population (%)"
+      },
+      {
+        "columnId": "flooded_rate_above_65_2024",
+        "columnTitle": "Affected people above 65 population (%)"
+      },
+      {
+        "columnId": "flooded_child_pop_2024",
+        "columnTitle": "Affected child population (count)"
+      },
+      {
+        "columnId": "flooded_active_pop_2024",
+        "columnTitle": "Affected adult population (count)"
+      },
+      {
+        "columnId": "flooded_elderly_pop_2024",
+        "columnTitle": "Affected elderly population (count)"
+      },
+      {
+        "columnId": "flooded_total_dependency_2024",
+        "columnTitle": "Affected total dependency (%)"
+      },
+      {
+        "columnId": "flooded_elderly_dependency_2024",
+        "columnTitle": "Affected elderly dependency (%)"
+      },
+      {
+        "columnId": "flooded_child_dependency_2024",
+        "columnTitle": "Affected child dependency (%)"
+      }
+    ],
+    "height": 600
+  }
+}

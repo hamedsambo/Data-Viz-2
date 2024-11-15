@@ -1,0 +1,52 @@
+{
+  "graphType": "dataTable",
+  "dataSettings": {
+    "dataURL": "https://raw.githubusercontent.com/UNDP-Data/dv-bangladesh/refs/heads/main/public/data/data.csv",
+    "fileType": "csv"
+  },
+  "graphSettings": {
+    "columnData": [
+      {
+        "columnTitle": "Upazila",
+        "columnId": "shapeName"
+      },
+      {
+        "columnId": "total_flooded_building_area",
+        "columnTitle": "Flooded building area (metres)"
+      },
+      {
+        "columnId": "total_flooded_building_area_perc",
+        "columnTitle": "Flooded building area (%)"
+      },
+      {
+        "columnId": "flooded_building_count",
+        "columnTitle": "Flooded buildings (count)"
+      },
+      {
+        "columnId": "flooded_building_count",
+        "columnTitle": "Flooded buildings (count)"
+      },
+      {
+        "columnId": "percentage_flooded",
+        "columnTitle": "Flooded buildings (%)"
+      },
+      {
+        "columnId": "flooded_grid_length",
+        "columnTitle": "Flooded grid length (metres)"
+      },
+      {
+        "columnId": "percentage_grid_flooded",
+        "columnTitle": "Flooded grid length (%)"
+      },
+      {
+        "columnId": "flooded_road_length",
+        "columnTitle": "Flooded road length (metres)"
+      },
+      {
+        "columnId": "percentage_flooded_roads",
+        "columnTitle": "Flooded road length (%)"
+      }
+    ],
+    "height": 600
+  }
+}

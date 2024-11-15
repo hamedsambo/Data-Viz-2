@@ -1,0 +1,32 @@
+{
+  "graphType": "dataTable",
+  "dataSettings": {
+    "dataURL": "https://raw.githubusercontent.com/UNDP-Data/dv-bangladesh/refs/heads/main/public/data/data.csv",
+    "fileType": "csv"
+  },
+  "graphSettings": {
+    "columnData": [
+      {
+        "columnTitle": "Upazila",
+        "columnId": "shapeName"
+      },
+      {
+        "columnId": "flooded_cropland",
+        "columnTitle": "Flooded cropland (square metres)"
+      },
+      {
+        "columnId": "flooded_cropland_perc",
+        "columnTitle": "Flooded cropland (%)"
+      },
+      {
+        "columnId": "flooded_builtup",
+        "columnTitle": "Flooded built up areas (square metres)"
+      },
+      {
+        "columnId": "flooded_builtup_perc",
+        "columnTitle": "Flooded built up areas (%)"
+      }
+    ],
+    "height": 600
+  }
+}

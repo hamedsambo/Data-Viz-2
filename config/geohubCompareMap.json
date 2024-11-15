@@ -1,0 +1,13 @@
+{
+  "graphType": "geoHubCompareMap",
+  "graphSettings": {
+    "mapStyles": [
+      "https://geohub.data.undp.org/api/style/354.json",
+      "https://geohub.data.undp.org/api/style/353.json"
+    ],
+    "graphTitle": "Flooded Areas in Bangladesh",
+    "graphDescription": "Use the toggle to compare flooded area with the satellite map to identify where flooding has expanded beyond existing water sources",
+    "zoomLevel": 10.986006428264936,
+    "center": [91.00270076184529, 24.162051724760033]
+  }
+}

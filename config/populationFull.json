@@ -30,12 +30,12 @@
                 "ui": "radio",
                 "allowedColumnIds": [
                   {
-                    "value": "flooded_pop_2024_perc",
-                    "label": "Percentage of population"
-                  },
-                  {
                     "value": "flooded_pop_2024",
                     "label": "Total count"
+                  },
+                  {
+                    "value": "flooded_pop_2024_perc",
+                    "label": "Percentage of population"
                   }
                 ],
                 "chartConfigId": "size"
@@ -44,7 +44,7 @@
             "graphDataConfiguration": [
               { "columnId": "shapeName", "chartConfigId": "label" },
               {
-                "columnId": "flooded_pop_2024_perc",
+                "columnId": "flooded_pop_2024",
                 "chartConfigId": "size"
               }
             ],
